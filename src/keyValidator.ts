@@ -71,6 +71,6 @@ export class KeyValidator {
    */
   public isAllowedKey(items: any[], sorting_key: string, proposed_key: ParsedKey) {
     const serialisedKey = KeyOperator.serializeKey(proposed_key)
-    return items.map((x) => x[sorting_key]).includes(serialisedKey);
+    return !items.map((x) => x[sorting_key]).includes(serialisedKey);
   }
 }
