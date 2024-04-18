@@ -1,7 +1,10 @@
 # sql-sort
 
 > Experimental sorting algorithm using stringified representations of fractions
+
 > Avoids using division entirely
+
+> Abandoned due to lack of use case
 
 ## Built With
 
