@@ -4,7 +4,7 @@
 
 > Avoids using division entirely
 
-> Abandoned due to lack of use case
+> Abandoned due to lack of use case and inherent risk of eventual int overflow
 
 ## Built With
 
