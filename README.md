@@ -4,8 +4,6 @@
 
 > Avoids using division entirely
 
-> Paused due to lack of use efficient use case and inherent risk of eventual int overflow
-
 ## Built With
 
 - [TypeScript](https://www.typescriptlang.org/) - JavaScript that scales
